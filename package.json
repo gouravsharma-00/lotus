@@ -1,0 +1,28 @@
+{
+  "name": "lotus",
+  "version": "1.0.0",
+  "description": "lotus is a robust agile backend",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "lotus",
+    "database",
+    "SQL",
+    "backend",
+    "services"
+  ],
+  "author": "belisarius",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
